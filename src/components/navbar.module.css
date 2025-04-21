@@ -1,0 +1,71 @@
+@media (max-width: 600px) {
+
+    /*Phone*/
+
+    .navbar {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar ul {
+        list-style: none;
+    }
+
+    .navbar li {
+        padding: 5px;
+        display: inline;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+
+    /*Tablet*/
+    .navbar {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.12em;
+    }
+
+    .navbar ul {
+        list-style: none;
+    }
+
+    .navbar li {
+        padding: 5px;
+        display: inline;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+@media (min-width:1000px) {
+
+    /*Comp*/
+    .navbar {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.2em;
+    }
+
+    .navbar ul {
+        list-style: none;
+    }
+
+    .navbar li {
+        padding: 5px;
+        display: inline;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}

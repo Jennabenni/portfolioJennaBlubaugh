@@ -1,0 +1,36 @@
+.footer {
+    background-color: #c98fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: double 5px black;
+}
+
+.footer p {
+    margin: 0;
+}
+
+.footer ul {
+    list-style: none;
+    display: block;
+}
+
+.footer a:visited {
+    color: rgb(44, 17, 49);
+}
+
+/*Tbh this doesn't need to be responsive*/
+
+@media (min-width:1000px) {
+    .footer p {
+        font-size: 1.2em;
+    }
+
+    .footer a {
+        font-size: 1.2em;
+    }
+}

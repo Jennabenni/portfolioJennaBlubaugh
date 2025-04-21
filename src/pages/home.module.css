@@ -1,0 +1,126 @@
+/*Come back to background image*/
+.background {
+    background-image: url('../assets/images/newDesertBackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 95%;
+
+}
+
+.home div {
+    background-color: rgb(237, 210, 255);
+    padding: 5px;
+    border: solid 2px black;
+
+
+}
+
+
+@media (max-width: 600px) {
+
+    /*Phone*/
+    .home p {
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.1em;
+        text-align: center;
+
+    }
+
+    .home h1 {
+        text-align: center;
+    }
+
+
+    .home {
+        background-color: rgb(237, 210, 255);
+        padding: 10px;
+        border: solid 2px black;
+    }
+
+    .home img {
+        width: 400px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: solid 1px black;
+
+    }
+
+    /*Need background image*/
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+
+    /*Tablet*/
+    .home p {
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.2em;
+        text-align: center;
+
+    }
+
+    .home img {
+        width: 500px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: solid 1px black;
+
+    }
+
+    .home h1 {
+        text-align: center;
+
+    }
+
+    .home {
+        background-color: rgb(237, 210, 255);
+        padding: 10px;
+        border: solid 2px black;
+    }
+}
+
+@media (min-width:1000px) {
+
+    /*Comp*/
+    .home p {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.2em;
+        text-align: center;
+
+    }
+
+    .home h1 {
+        text-align: center;
+
+    }
+
+    .home {
+        background-color: rgb(237, 210, 255);
+        padding: 10px;
+        border: solid 2px black;
+    }
+
+    .home img {
+        width: 700px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: solid 1px black;
+
+    }
+}

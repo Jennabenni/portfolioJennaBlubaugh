@@ -1,0 +1,110 @@
+.projects {
+    background-color: rgb(237, 210, 255);
+    font-size: 1.3em;
+    text-align: center;
+    border: solid 2px black;
+}
+
+html {
+    background-color: rgb(249, 241, 255);
+
+    scroll-behavior: smooth;
+
+}
+
+
+/*Responsiveness*/
+
+@media (max-width: 600px) {
+
+    /*Phone*/
+    .projects img {
+        width: 400px;
+        height: auto;
+        border: solid 1px black;
+
+    }
+
+    .projects p {
+        font-size: 24px;
+        width: 350px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .projects div {
+        border: solid 2px black;
+        padding: 10px;
+    }
+
+
+    .projects h2 {
+        font-size: 1.5em;
+        padding: 30px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+
+    /*Tablet*/
+    .projects img {
+        width: 500px;
+        height: auto;
+        border: solid 1px black;
+
+    }
+
+    .projects p {
+        font-size: 1.3em;
+        width: 500px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .projects div {
+        border: solid 2px black;
+        padding: 20px;
+    }
+
+
+    .projects h2 {
+        font-size: 2em;
+        padding: 30px;
+    }
+}
+
+@media (min-width:1000px) {
+
+    /*Comp*/
+
+    .projects img {
+        width: 900px;
+        height: auto;
+        border: solid 1px black;
+
+    }
+
+    .projects p {
+        font-size: 24px;
+        width: 700px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .projects div {
+        border: solid 2px black;
+        padding: 10px;
+    }
+
+
+    .projects h2 {
+        font-size: 1.5em;
+        padding: 30px;
+    }
+}

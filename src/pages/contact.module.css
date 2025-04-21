@@ -1,0 +1,50 @@
+.contact {
+    background-color: rgb(237, 210, 255);
+    padding: 10px;
+    border: solid 2px black;
+}
+
+
+
+@media (max-width: 600px) {
+
+
+    /*Phone*/
+    .contact {
+        text-align: center;
+        font-size: 1.2em;
+    }
+
+    .contact div {
+        padding: 10px;
+
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+
+    /*Tablet*/
+    .contact {
+        text-align: center;
+        font-size: 1.4em;
+    }
+
+    .contact div {
+        padding: 10px;
+
+    }
+}
+
+@media (min-width:1000px) {
+
+    /*Comp*/
+    .contact {
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .contact div {
+        padding: 10px;
+
+    }
+}

@@ -1,0 +1,46 @@
+.about {
+    background-color: rgb(237, 210, 255);
+    padding: 10px;
+    border: solid 2px black;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    /*Phone*/
+    .about {
+        text-align: center;
+        font-size: 1.2em;
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+
+    /*Tablet*/
+    .about {
+        text-align: center;
+        font-size: 1.4em;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width:1000px) {
+
+    /*Comp*/
+    .about {
+        text-align: center;
+        font-size: 1.4em;
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
