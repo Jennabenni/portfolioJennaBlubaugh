@@ -8,3 +8,6 @@ const ProjectInfo = ({ title, description, image, link }) => (
   );
 
   export default ProjectInfo;
+
+
+  /*Style for projects */

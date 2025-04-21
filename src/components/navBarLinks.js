@@ -13,3 +13,4 @@ const NavLinks = () => (
 
 export default NavLinks;
 
+/* This includes what the actual navigation is*/

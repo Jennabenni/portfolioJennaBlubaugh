@@ -19,7 +19,7 @@ const Contact = () => {
       [name]: value,
     }));
   };
-
+/* Form data to validate */
   const validate = () => {
     const newErrors = {};
 
@@ -42,16 +42,16 @@ const Contact = () => {
     e.preventDefault();
     const formErrors = validate();
     if (Object.keys(formErrors).length === 0) {
-      // Submit the form (e.g., send data to a server or show success message)
+      /* Form doesnt go anywhere */
       console.log('Form submitted:', formData);
-      // Reset form
+      //Reset form
       setFormData({ name: '', email: '', message: '' });
       setErrors({});
     } else {
       setErrors(formErrors);
     }
   };
-
+/* Here is output, gives styling for whole thing */
   return (
     <motion.div
     initial={{ opacity: 0, y: 50 }}
@@ -59,6 +59,7 @@ const Contact = () => {
     transition={{ duration: 0.6 }}
     viewport={{ once: true }}
   >
+
     <div className={styles.contact}>
       <h2>Contact Me</h2>
 

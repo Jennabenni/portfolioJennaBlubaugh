@@ -3,6 +3,8 @@ import ProjectInfo from '../components/projectInfo';
 import styles from './projects.module.css';
 import { motion } from 'framer-motion';
 
+
+/* The information needed as a param for the actual project page*/
 const Projects = () => {
   const projects = [
     {
@@ -24,7 +26,7 @@ const Projects = () => {
       link: 'https://github.com/Jennabenni/todoList',
     },
   ];
-
+/* Using map*/
   return (
     <motion.div
     initial={{ opacity: 0, y: 50 }}

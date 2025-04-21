@@ -2,7 +2,7 @@ import styles from './home.module.css';
 import { motion } from 'framer-motion';
 
 
-
+/* Info data all that*/
 const Home = () => (
 
 
@@ -24,7 +24,7 @@ const Home = () => (
   );
   export default Home;
 
-  //needs a background image
+
 
 
   //className={styles.home}

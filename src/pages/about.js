@@ -25,3 +25,6 @@ const About = () => (
   );
 
   export default About;
+
+
+  /*Page with the about information, equipped with transitions */

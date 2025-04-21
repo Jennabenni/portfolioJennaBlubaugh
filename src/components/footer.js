@@ -11,3 +11,5 @@ const Footer = () => (
 );
 
 export default Footer;
+
+/*Has nav links as well, same as the header nav */
